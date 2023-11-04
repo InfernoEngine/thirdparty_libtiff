@@ -99,7 +99,8 @@ typedef void *tdata_t;      /* image data ref */
 #define VC_EXTRALEAN
 #include <windows.h>
 #ifdef __WIN32__
-DECLARE_HANDLE(thandle_t); /* Win32 file handle */
+//DECLARE_HANDLE(thandle_t); /* Win32 file handle */
+typedef void *thandle_t;
 #else
 typedef HFILE thandle_t; /* client data handle */
 #endif /* __WIN32__ */
