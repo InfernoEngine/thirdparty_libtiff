@@ -57,7 +57,7 @@
 			tif_zip.c;
 			tif_zstd.c
 		</ThirdPartySourceFile>
-		<Dependency>lib_zlib</Dependency>
+		<Dependency>thirdparty_zlib</Dependency>
 	</StaticLibrary>
 
 </Module>
