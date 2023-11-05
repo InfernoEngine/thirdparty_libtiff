@@ -1,3 +1,4 @@
+ cmake_minimum_required(VERSION 3.23)
 # CMake build for libtiff
 #
 # Copyright © 2015 Open Microscopy Environment / University of Dundee

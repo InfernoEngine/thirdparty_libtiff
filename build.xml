@@ -10,8 +10,6 @@
 		<ThirdParty>true</ThirdParty>
 		<ExportedIncludeDirectory>libtiff</ExportedIncludeDirectory>
 		<ThirdPartySourceFile>
-			mkg3states.c;
-			mkspans.c;
 			tif_aux.c;
 			tif_close.c;
 			tif_codec.c;
